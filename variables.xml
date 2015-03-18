@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<data>
+
+    <variables>
+         <variable name = "color">
+              <option>blue</option>
+              <option>red</option>
+         </variable>
+        <variable name = 'keys'>
+          <option abbreviation = 'n'>no keys</option>
+          <option abbreviation = 'y'>keys</option>
+        </variable>
+    </variables>
+    <places>
+         <place>
+              <name>New ECE Building</name>
+              <category name = "ns_of_green">North of Green</category>
+              <category name = "dept">ECE</category>
+         </place>
+         <place>
+              <name>Illini Union</name>
+              <category name = "ns_of_green">South of Green</category>
+              <category name = "dept">All</category>
+         </place>
+    </places>
+
+    <people>
+         <person name = "Matt">
+              <time>
+                   <start>2015-01-23T10:30:00Z</start>
+                   <end>2015-01-23T12:30:00Z</end>
+              </time>
+              <time>
+                   <start>2015-01-24T11:00:00Z</start>
+                   <end>2015-01-24T12:00:00Z</end>
+              </time>
+         </person>
+    </people>
+
+    <settings>
+         <setting name = "include_locations_in_id">no</setting>
+         <setting name = "use_location_categories">
+              <category name = "ns_of_green"></category>
+              <category name = "dept"></category>
+         </setting>
+         <setting name = "num_drives">10</setting>
+    </settings>
+</data>
