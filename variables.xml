@@ -10,18 +10,54 @@
           <option abbreviation = 'n'>no keys</option>
           <option abbreviation = 'y'>keys</option>
         </variable>
+        <variable name = 'time'>
+            <option>morning</option>
+            <option>evening</option>
+        </variable>
     </variables>
     <places>
          <place>
               <name>New ECE Building</name>
+              <latitude>40.114868</latitude>
+              <longitude>-88.227711</longitude>
               <category name = "ns_of_green">North of Green</category>
               <category name = "dept">ECE</category>
          </place>
          <place>
               <name>Illini Union</name>
+              <latitude>40.114868</latitude>
+              <longitude>-23.227711</longitude>
               <category name = "ns_of_green">South of Green</category>
               <category name = "dept">All</category>
-         </place>
+        </place>
+        <place>
+              <name>Illini Union</name>
+              <latitude>15.114868</latitude>
+              <longitude>-23.227711</longitude>
+              <category name = "ns_of_green">South of Green</category>
+              <category name = "dept">All</category>
+        </place>
+        <place>
+              <name>Illini Union</name>
+              <latitude>78.114868</latitude>
+              <longitude>-24.227711</longitude>
+              <category name = "ns_of_green">South of Green</category>
+              <category name = "dept">All</category>
+        </place>
+        <place>
+              <name>Illini Union</name>
+              <latitude>92.114868</latitude>
+              <longitude>-92.227711</longitude>
+              <category name = "ns_of_green">South of Green</category>
+              <category name = "dept">All</category>
+        </place>
+        <place>
+              <name>Illini Union</name>
+              <latitude>13.114868</latitude>
+              <longitude>-5.227711</longitude>
+              <category name = "ns_of_green">South of Green</category>
+              <category name = "dept">All</category>
+        </place>
     </places>
 
     <people>
@@ -35,6 +71,27 @@
                    <end>2015-01-24T12:00:00Z</end>
               </time>
          </person>
+        <person name = "Roger">
+              <time>
+                   <start>2015-01-23T10:30:00Z</start>
+                   <end>2015-01-23T12:30:00Z</end>
+              </time>
+              <time>
+                   <start>2015-01-24T11:00:00Z</start>
+                   <end>2015-01-24T12:00:00Z</end>
+              </time>
+         </person>
+        <person name = "Bob">
+              <time>
+                   <start>2015-01-23T10:30:00Z</start>
+                   <end>2015-01-23T12:30:00Z</end>
+              </time>
+              <time>
+                   <start>2015-01-24T11:00:00Z</start>
+                   <end>2015-01-24T12:00:00Z</end>
+              </time>
+         </person>
+
     </people>
 
     <settings>
@@ -43,6 +100,7 @@
               <category name = "ns_of_green"></category>
               <category name = "dept"></category>
          </setting>
-         <setting name = "num_drives">10</setting>
+         <setting name = "num_drives">300</setting>
+         <setting name = "num_clusters">5</setting>
     </settings>
 </data>
